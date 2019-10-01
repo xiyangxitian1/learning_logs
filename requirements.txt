@@ -1,0 +1,5 @@
+Django==2.2.5
+django-bootstrap3==11.1.0
+pytz==2019.2
+reverse==0.1.0
+sqlparse==0.3.0
