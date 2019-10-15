@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e07ab9a9-319d-487c-b204-27e3d8150020" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/magecourse/testStrFormat1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/magecourse/paixu/quicksort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/magecourse/paixu/selectpaixu.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/magecourse/paixu/guibing.py" beforeDir="false" afterPath="$PROJECT_DIR$/magecourse/paixu/guibing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/magecourse/paixu/maopao.py" beforeDir="false" afterPath="$PROJECT_DIR$/magecourse/paixu/maopao.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +78,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.testStrFormat1">
+  <component name="RunManager" selected="Python.selectpaixu">
     <configuration name="guibing" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="my_first_django" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,7 +123,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="testHouZiTao" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="quicksort" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="my_first_django" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -129,12 +131,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/magecourse" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/magecourse/paixu" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/magecourse/testHouZiTao.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/magecourse/paixu/quicksort.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="selectpaixu" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="my_first_django" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/magecourse/paixu" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/magecourse/paixu/selectpaixu.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,28 +181,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/magecourse/testStrFormat1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="yanghuisanjiao" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="my_first_django" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/magecourse" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/magecourse/yanghuisanjiao.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -213,11 +215,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.testStrFormat1" />
-        <item itemvalue="Python.guibing" />
+        <item itemvalue="Python.selectpaixu" />
         <item itemvalue="Python.maopao" />
-        <item itemvalue="Python.yanghuisanjiao" />
-        <item itemvalue="Python.testHouZiTao" />
+        <item itemvalue="Python.quicksort" />
+        <item itemvalue="Python.guibing" />
+        <item itemvalue="Python.testStrFormat1" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +255,8 @@
       <workItem from="1570920809660" duration="5754000" />
       <workItem from="1570980027111" duration="1831000" />
       <workItem from="1571069297261" duration="4660000" />
-      <workItem from="1571097991567" duration="1002000" />
+      <workItem from="1571097991567" duration="1039000" />
+      <workItem from="1571151261657" duration="6146000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交我的python项目">
       <created>1569899781485</created>
@@ -269,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571073955149</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="字符串format">
+      <created>1571099024921</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571099024921</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,7 +301,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第一次提交我的python项目" />
     <MESSAGE value="归并排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="归并排序" />
+    <MESSAGE value="字符串format" />
+    <option name="LAST_COMMIT_MESSAGE" value="字符串format" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -305,11 +316,13 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/my_first_django$quicksort.coverage" NAME="quicksort Coverage Results" MODIFIED="1571158422777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/magecourse/paixu" />
     <SUITE FILE_PATH="coverage/my_first_django$yanghuisanjiao.coverage" NAME="yanghuisanjiao Coverage Results" MODIFIED="1570927339115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/magecourse" />
-    <SUITE FILE_PATH="coverage/my_first_django$guibing.coverage" NAME="guibing Coverage Results" MODIFIED="1571098070805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/magecourse/paixu" />
+    <SUITE FILE_PATH="coverage/my_first_django$guibing.coverage" NAME="guibing Coverage Results" MODIFIED="1571157934309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/magecourse/paixu" />
     <SUITE FILE_PATH="coverage/my_first_django$diGuiHouzi.coverage" NAME="diGuiHouzi Coverage Results" MODIFIED="1570884153152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/magecourse" />
     <SUITE FILE_PATH="coverage/my_first_django$testStrFormat1.coverage" NAME="testStrFormat1 Coverage Results" MODIFIED="1571098685686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/magecourse" />
+    <SUITE FILE_PATH="coverage/my_first_django$selectpaixu.coverage" NAME="selectpaixu Coverage Results" MODIFIED="1571159302183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/magecourse/paixu" />
     <SUITE FILE_PATH="coverage/my_first_django$testHouZiTao.coverage" NAME="testHouZiTao Coverage Results" MODIFIED="1570884319410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/magecourse" />
-    <SUITE FILE_PATH="coverage/my_first_django$maopao.coverage" NAME="maopao Coverage Results" MODIFIED="1570981175803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/magecourse/paixu" />
+    <SUITE FILE_PATH="coverage/my_first_django$maopao.coverage" NAME="maopao Coverage Results" MODIFIED="1571158502751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/magecourse/paixu" />
   </component>
 </project>

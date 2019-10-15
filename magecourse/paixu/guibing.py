@@ -1,22 +1,20 @@
+from datetime import datetime
 from random import randint
 
 
-def mergingSort(*arr):
+def mergingSort(arr):
     """归并排序"""
-    arr0 = arr[0]
-    if len(arr0) == 1:
-        return arr0
-    num = len(arr0) >> 1
-    leftArr = arr0[:num]
-    rightArr = arr0[num:]
+    if arr == None or len(arr) == 1:
+        return arr
+    num = len(arr) >> 1
+    leftArr = arr[:num]
+    rightArr = arr[num:]
     # print("split lef: " + str(leftArr) + " right: " + str(rightArr))
     return mergingArr(mergingSort(leftArr), mergingSort(rightArr))
 
 
-def mergingArr(*arr):
+def mergingArr(arr1, arr2):
     """归并列表"""
-    arr1 = arr[0]
-    arr2 = arr[1]
     i, j, k = 0, 0, 0
     # result = [0 for i in range(len(arr1) + len(arr2))]
     result = [0] * (len(arr1) + len(arr2))
@@ -39,7 +37,9 @@ def mergingArr(*arr):
     return result
 
 
-lst = [randint(1, 10) for i in range(1000000)]
-print("begin")
-lst = mergingSort(lst)
-print("ok")
+lst = [randint(1, 1000000) for i in range(1000000)]
+start = datetime.now()
+mergingSort(lst)
+end = datetime.now()
+s = (end - start).seconds
+print("use time is {}s".format(s))  # 8s
