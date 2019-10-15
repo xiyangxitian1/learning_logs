@@ -18,7 +18,8 @@ def mergingArr(*arr):
     arr1 = arr[0]
     arr2 = arr[1]
     i, j, k = 0, 0, 0
-    result = [0 for i in range(len(arr1) + len(arr2))]
+    # result = [0 for i in range(len(arr1) + len(arr2))]
+    result = [0] * (len(arr1) + len(arr2))
     while i < len(arr1) and j < len(arr2):
         if arr1[i] <= arr2[j]:
             result[k] = arr1[i]
@@ -38,7 +39,7 @@ def mergingArr(*arr):
     return result
 
 
-lst = [randint(1, 10) for i in range(10000000)]
+lst = [randint(1, 10) for i in range(1000000)]
 print("begin")
 lst = mergingSort(lst)
 print("ok")
