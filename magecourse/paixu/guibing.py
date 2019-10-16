@@ -4,7 +4,7 @@ from random import randint
 
 def mergingSort(arr):
     """归并排序"""
-    if arr == None or len(arr) == 1:
+    if arr == None or len(arr) < 2:
         return arr
     num = len(arr) >> 1
     leftArr = arr[:num]
