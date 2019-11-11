@@ -9,10 +9,10 @@ def logger(fn):
 
 
 @logger
-def add(x, y):
+def add(x=1, y=2):
     print("add")
     return x + y
 
 
 # sum = logger(add)(3, 4)
-print("sum is {}".format(add(3, y=4)))
+print("sum is {}".format(add(4, 5)))
